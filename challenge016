@@ -1,0 +1,8 @@
+rainy = input("지금 비가 오나요? : ")
+
+if rainy == 'yes':
+    windy = input("지금 바람이 부나요? : ")
+    if windy == 'yes' :
+        print("It is too windy for an umbrella")
+    else : print("Take an umbrella")
+else : print("Enjoy your day")
